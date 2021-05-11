@@ -15,7 +15,7 @@ function accordionLoader() {
     //when element is clicked, toggle it for checkbox
     jQuery("li[data-sf-field-input-type^='checkbox'] a").click(function () {
         event.preventDefault();
-        allAccordions.slideUp();
+        //allAccordions.slideUp();
         jQuery(this).next().slideToggle();
         jQuery(this).toggleClass("open");
         return false;
