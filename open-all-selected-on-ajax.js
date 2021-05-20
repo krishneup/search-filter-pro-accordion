@@ -43,7 +43,8 @@ jQuery(document).on("click", ".accordion-list", function () {
 
 jQuery(document).on("click", ".search-filter-reset", function () {
   
-  uniqueChars = [];
+  uniqueChars.length = 0;
+  new_array.length =0;
 });
 
 //when ajax is triggered
