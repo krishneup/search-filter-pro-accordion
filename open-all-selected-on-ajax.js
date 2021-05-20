@@ -41,7 +41,10 @@ jQuery(document).on("click", ".accordion-list", function () {
   uniqueChars = [...new Set(new_array)];
 });
 
-console.log(new_array);
+jQuery(document).on("click", ".search-filter-reset", function () {
+  
+  uniqueChars = [];
+});
 
 //when ajax is triggered
 (function (jQuery) {
