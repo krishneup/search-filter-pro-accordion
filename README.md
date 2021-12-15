@@ -8,3 +8,4 @@ Add accordion to search & filter pro accordion checkbox field so you can toggle 
 2.  Install & Activate the plugin.
 3. It will automatically apply accordion feature to all the checkbox filter fields.
 4. You must have Checkbox filter title set to make make the accordion option appear.
+5. ** This addon is third party addon plugin. That means, it is not official plugin.**
